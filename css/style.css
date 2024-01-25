@@ -858,3 +858,11 @@ aside {
   padding-left: 10px;
   color: var(--colorSecondary);
 }
+
+.submit-btn,
+.submit-btn:hover,
+.submit-btn:focus-visible,
+.submit-btn:active {
+  background-color: var(--colorSecondary) !important;
+  border: none !important;
+}
