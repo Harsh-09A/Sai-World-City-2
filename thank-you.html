@@ -55,6 +55,73 @@
     <!-- Custom CSS & JS  -->
     <link rel="stylesheet" href="css/style.css" />
     <script defer src="js/script.js"></script>
+
+    <!-- Campaign Codes -->
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-10872660795"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "AW-10872660795");
+    </script>
+
+    <!-- Event snippet for Submit Lead Form conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof url != "undefined") {
+            window.location = url;
+          }
+        };
+        gtag("event", "conversion", {
+          send_to: "AW-10872660795/rpFrCOrumo4ZELvGvsAo",
+          event_callback: callback,
+        });
+        return false;
+      }
+    </script>
+
+    <!-- Call -->
+    <!-- Event snippet for Calls From Website (SWC) conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof url != "undefined") {
+            window.location = url;
+          }
+        };
+        gtag("event", "conversion", {
+          send_to: "AW-10872660795/Q3vKCL-tmo4ZELvGvsAo",
+          event_callback: callback,
+        });
+        return false;
+      }
+    </script>
+
+    <!-- WhatsApp -->
+    <!-- Event snippet for Lead on What&#39;sApp (SWC) conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof url != "undefined") {
+            window.location = url;
+          }
+        };
+        gtag("event", "conversion", {
+          send_to: "AW-10872660795/keQqCKjUm44ZELvGvsAo",
+          event_callback: callback,
+        });
+        return false;
+      }
+    </script>
   </head>
 
   <body
